@@ -1,0 +1,123 @@
+@import "../../config";
+
+.sustain-container {
+  background: url("../../../assets/about-bg.png") no-repeat center center/cover;
+  @media screen and (max-width: $md) {
+    padding: 5rem 1rem;
+  }
+  @media screen and (min-width: $lg) {
+    padding: 7rem 0;
+  }
+  @media screen and (min-width: $xl) {
+    padding: 11rem 0;
+  }
+  &-heading {
+    padding: 3rem 4rem;
+    @media screen and (max-width: $md) {
+      padding: 4rem 1rem;
+      padding-bottom: 1rem;
+      h1 {
+        padding: 0 !important;
+      }
+    }
+    h1 {
+      font-size: 48px;
+    }
+  }
+
+  &-cards {
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    object-fit: cover;
+    gap: 2rem;
+    @media screen and (max-width: $md) {
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      padding: 0;
+    }
+    &-card {
+      .sus-icon {
+        font-size: 40px;
+      }
+
+      background-color: #ffff;
+      height: auto;
+      border-radius: 10px;
+      width: 333px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      @media screen and (max-width: $md) {
+        width: auto;
+        margin-bottom: 1rem;
+        width: 90%;
+      }
+      @media screen and (min-width: $lg) {
+        width: calc(96% / 3);
+        height: 600px;
+      }
+      // justify-content: space-around;
+      padding: 1rem 2rem;
+      border: 2px solid rgba(241, 241, 241, 0.731);
+      transition: background 0.3s ease-in-out;
+
+      box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+      // align-items: center;
+      .card-content {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        &:hover a {
+          color: gray;
+          transition: all 0.2s ease-in-out;
+        }
+        &:hover path {
+          fill: gray;
+          transition: all 0.2s ease-in-out;
+        }
+      }
+      img {
+        height: 200px;
+        width: 250px;
+        object-fit: contain;
+      }
+      p {
+        font-family: $body-font;
+        font-size: 14px;
+      }
+      .link {
+        margin: 2rem 0 !important;
+        font-size: 14px;
+        color: $secondary-color;
+      }
+      svg {
+        height: 10px;
+        width: 10px;
+        fill: $secondary-color;
+      }
+      h4 {
+        line-height: 28px;
+        text-transform: none;
+        font-weight: 700;
+        letter-spacing: 0px;
+        color: #000000;
+        margin-bottom: 0;
+        font-size: 20px;
+        font-family: $body-font;
+        margin-top: 2rem;
+        margin-bottom: 10px;
+      }
+      a {
+        font-size: 12px;
+        letter-spacing: 0.02em;
+        margin-right: 5px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: black;
+      }
+    }
+  }
+}

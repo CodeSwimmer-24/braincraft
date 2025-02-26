@@ -1,0 +1,138 @@
+@import "../../config";
+
+.csr-container {
+  padding: 4rem;
+  @media screen and  (max-width:$md) {
+        
+    padding: 4rem 0rem !important;
+    margin-top: 2rem;
+    h1{
+      padding: 0;
+    }
+
+}
+
+  .heading {
+    margin-bottom: 2rem;
+    @media screen and  (min-width:$lg) {
+        
+     margin-top: 6rem;
+   
+   }
+   @media screen and  (min-width:$xl) {
+        
+    margin-top: 9rem;
+  
+  }
+    h1 {
+      font-size: 48px;
+    }
+    @media screen and  (max-width:$md) {
+        
+     padding: 0 1rem;
+   
+   }
+  }
+
+  .csr-images {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+
+
+
+    .csr-row{
+        display: flex;
+        justify-content: center !important;
+        width: 100%;
+        @media screen and  (max-width:$md) {
+        flex-direction: column;
+      
+      }
+        // gap: 1rem;
+    }
+    // justify-content: center;
+
+    // gap: 1rem;
+    // justify-content: space-evenly;
+    .csr-row-more
+    {
+        
+        // .csr-image {
+
+        //     height: 400px;
+        //     width: 450px;
+        // }
+        img{
+            height: 310px  !important;
+            width: 400px !important;
+            @media screen and  (max-width:$md) {
+        
+             width: 97% !important;
+          
+          }
+          @media screen and  (min-width:$lg) {
+        
+            max-width: 100% !important;
+            width: 100% !important;
+        height: auto !important;
+         
+         }
+        }
+    }
+    .csr-image {
+     
+
+        // height:500px;
+        // width: 700px;
+       
+        padding: 1rem;
+        padding-bottom: 10px;
+        width: calc(100%/2);
+        @media screen and  (max-width:$md) {
+        
+               padding: 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    div{
+      padding: 1rem;
+
+    }
+      
+      }
+      
+    }
+    img {
+      height: 400px  !important;
+      width: calc(100% );
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      @media screen and  (max-width:$md) {
+        
+        width: 97% !important;
+     
+     }
+     @media screen and  (min-width:$lg) {
+        
+      max-width: 100% !important;
+      width: 100% !important;
+  height: auto !important;
+   
+   }
+    }
+
+    p{
+        font-family: $body-font;
+        font-weight: 600;
+        color: rgba(26, 26, 26, 0.783);
+        margin: 10px 0;
+    }
+  }
+}

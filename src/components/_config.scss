@@ -1,0 +1,170 @@
+$primary-color: rgb(255, 255, 255);
+$secondary-color: #a03794;
+$blur-color: #4f4f4f62;
+$lighten-bg: #fff1ea;
+$dark-nav-color: #162129;
+$logo-font: "Simple Brush Script", sans-serif;
+$logo-color: black;
+$body-font: "Manrope", sans-serif;
+$rubik-font: "Rubik", sans-serif;
+
+$h3-font-size: 2.6rem;
+
+$sm: 370px;
+$md: 768px;
+$lg: 1660px;
+$xl: 2000px;
+
+$button-size: 23px;
+$button-color: #000;
+
+img {
+  pointer-events: none;
+}
+
+h3 {
+  font-weight: 800 !important;
+}
+
+.cursive {
+  font-family: $logo-font;
+  color: black;
+  font-weight: 600;
+  padding: 10px 10px;
+}
+
+.p-2 {
+  padding: 1rem 3rem !important;
+
+  @media screen and (max-width: $md) {
+    padding: 1rem 1rem !important;
+  }
+}
+
+.clip {
+  font-family: rubik, Sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+
+  margin-bottom: 1rem !important;
+
+  @media screen and (min-width: $lg) {
+    font-size: 15px !important;
+  }
+}
+p {
+  @media screen and (min-width: $lg) {
+    font-size: 20px !important;
+    letter-spacing: 0.04em !important;
+    line-height: 32px !important;
+  }
+}
+
+.homepage-btn {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: $rubik-font;
+  text-transform: uppercase;
+  letter-spacing: 0.22px;
+  fill: #657078;
+  color: #657078;
+  background-color: #02010100;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #e1e4e6;
+  border-radius: 25px 25px 25px 25px;
+  padding: 17px 35px 14px;
+  margin-left: 3rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  @media screen and (max-width: $md) {
+    margin-left: 0rem;
+    color: #fff;
+    background: linear-gradient(
+      to right,
+      #c2385c,
+      lighten($secondary-color, 8%)
+    );
+    border-color: transparent;
+  }
+
+  &:hover {
+    color: #fff;
+    background: linear-gradient(
+      to right,
+      #c2385c,
+      lighten($secondary-color, 8%)
+    );
+    border-color: transparent;
+  }
+  svg {
+    margin-left: 4px;
+  }
+}
+
+.hide {
+  @media screen and (max-width: $md) {
+    display: none !important;
+  }
+}
+.underline {
+  background: linear-gradient($secondary-color 0 0) bottom / var(--d, 0) 3px
+    no-repeat;
+  transition: 0.3s;
+
+  &:hover {
+    --d: 100%;
+  }
+}
+
+h1 {
+  font-family: $body-font;
+  font-size: 57px;
+  line-height: 72px;
+  // padding-left: 3rem;
+  width: 95%;
+  @media screen and (max-width: $md) {
+    line-height: 60px !important;
+    padding: 0 1rem;
+    font-size: 48px !important;
+    text-align: left;
+    padding: 0 1rem;
+    margin-top: 0;
+    width: 100%;
+  }
+  @media screen and (max-width: $sm) {
+    line-height: 60px !important;
+    padding: 0 1rem;
+    font-size: 40px !important;
+    text-align: left;
+    padding: 0 1rem;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  @media screen and (min-width: $lg) {
+    width: 60%;
+    font-size: 72px !important;
+
+    line-height: 82px !important;
+  }
+}
+
+.dark-nav {
+  background-color: #162129;
+}
+.description {
+  font-family: $rubik-font;
+
+  text-align: left;
+  color: #657078;
+
+  font-size: 16px;
+  line-height: 28px;
+
+  @media screen and (max-width: $md) {
+    padding: 0;
+  }
+}

@@ -1,0 +1,171 @@
+@import "../../config";
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  position: relative;
+  max-height: 110vh;
+
+  // gap: rem;
+
+  background-image: linear-gradient(
+    to bottom,
+    #160b10,
+    rgba(0, 0, 0, 0.1),
+    // Update to black with 0.5 opacity
+    transparent
+  );
+
+  @media screen and (max-width: $md) {
+    height: 65vh;
+    background-image: none;
+    gap: 3rem;
+    max-height: none;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: linear-gradient(
+      to top,
+      $secondary-color,
+      rgba(0, 0, 0, 0.4)
+    );
+
+    // Media query for max-width: $md
+    @media screen and (max-width: $md) {
+      background-image: linear-gradient(
+        to top,
+        $secondary-color,
+        rgba(0, 0, 0, 0.7) // Updated opacity for smaller screens
+      );
+    }
+
+    .hero-logo {
+      position: absolute;
+      top: 40px; /* Adjust based on your design */
+      left: 14%;
+      transform: translateX(-50%);
+      height: 60px; /* Set to your preferred size */
+      object-fit: contain; /* Ensures the logo maintains its aspect ratio */
+      z-index: 2;
+      @media screen and (max-width: $md) {
+        top: 40px; /* Adjust based on your design */
+        left: 40%;
+      }
+    }
+
+    .hero-heading {
+      color: $primary-color;
+      font-size: 70px;
+      text-align: center;
+      font-family: $body-font;
+      width: 75%;
+      font-weight: 800;
+      padding: 0 4rem;
+      line-height: 80px;
+      font-weight: 600;
+      z-index: 1;
+      margin-bottom: 4rem;
+      margin-top: 12rem;
+      text-align: left;
+
+      @media screen and (max-width: $md) {
+        line-height: 50px !important;
+        padding: 0 1.5rem;
+        font-size: 42px !important;
+        text-align: left;
+        margin-top: 10rem;
+        width: 100%;
+      }
+      @media screen and (max-width: $sm) {
+        font-size: 32px !important;
+      }
+      @media screen and (min-width: $lg) {
+        width: 60%;
+        font-size: 80px;
+      }
+      @media screen and (min-width: $xl) {
+        width: 50%;
+      }
+    }
+
+    .hero-bottom {
+      display: flex;
+      color: white;
+      width: 50%;
+      height: 190px;
+      margin: 0 4rem;
+
+      @media screen and (max-width: $md) {
+        width: 100%;
+        margin: 0;
+        display: none;
+      }
+      &-left {
+        flex: 2;
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345d4, #232526d0);
+        background: linear-gradient(to right, #414345d4, #232526d0);
+        color: white;
+        padding: 1.5rem 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        h3 {
+          font-family: $body-font;
+        }
+        p {
+          font-family: $rubik-font;
+          font-size: 13px;
+        }
+        a {
+          font-family: $rubik-font;
+          font-size: 11px;
+          font-weight: 500;
+          color: white;
+          text-decoration: none;
+          svg {
+            margin-left: 5px;
+          }
+        }
+      }
+      &-right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        .arrow {
+          flex: 1;
+          background-color: gray;
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 54%;
+          border: 1px solid rgba(28, 28, 28, 0.847);
+          background-color: #45454593;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            background-color: #454545c2;
+          }
+        }
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    @media screen and (min-width: $lg) {
+      height: auto;
+    }
+  }
+}

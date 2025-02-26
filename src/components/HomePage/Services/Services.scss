@@ -1,0 +1,167 @@
+@import "../../config";
+
+.services {
+  padding: 4rem 3rem;
+  @media screen and (max-width: $md) {
+    padding: 4rem 1rem;
+    h1 {
+      padding: 0;
+    }
+  }
+  a {
+    color: black;
+    svg {
+      fill: $secondary-color;
+      font-size: 16px;
+      width: 10px !important;
+      height: 10px !important;
+    }
+  }
+  .services-top {
+    display: flex;
+    gap: 1rem;
+    @media screen and (max-width: $md) {
+      flex-direction: column;
+    }
+    &-card {
+      width: calc(97% / 2) !important;
+    }
+    &-left {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-family: $body-font;
+        font-size: 3rem;
+        // padding-left: 3rem;
+        width: 95%;
+      }
+      .services-para {
+        margin: 2rem 0;
+        font-family: $rubik-font;
+
+        text-align: left;
+        color: #657078;
+
+        font-size: 16px;
+        line-height: 28px;
+        width: 90%;
+      }
+      button {
+        width: 160px;
+        margin-left: 0;
+        // padding: 0;
+      }
+    }
+    &-right {
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      @media screen and (max-width: $md) {
+        flex-direction: column;
+      }
+    }
+  }
+  .services-bottom {
+    display: flex;
+    margin-top: 2rem;
+    // gap: 1rem;
+    justify-content: space-between;
+    @media screen and (max-width: $md) {
+      flex-direction: column;
+    }
+  }
+  .card {
+    // background-color: #ffff;
+    height: 340px;
+    width: calc(96% / 4);
+    display: flex;
+    @media screen and (max-width: $md) {
+      width: auto !important;
+      margin-bottom: 1rem;
+    }
+    @media screen and (min-width: $lg) {
+      height: 390px;
+    }
+    flex-direction: column;
+    // justify-content: space-around;
+    padding: 1rem 2rem;
+    border: 2px solid rgba(241, 241, 241, 0.731);
+    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+
+    background: white;
+    background: -webkit-linear-gradient(
+      to right,
+      #ffff,
+      #ffff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #ffff,
+      #ffff
+    ); /* W3/* fallback for old browsers */
+
+    // align-items: center;
+    .index {
+      margin-bottom: 5rem;
+      color: black;
+      margin-bottom: 7rem !important;
+    }
+    img {
+      height: 60px;
+      width: 60px;
+    }
+    svg {
+      height: 60px;
+      width: 60px;
+      fill: $secondary-color;
+    }
+    h4 {
+      line-height: 28px;
+      text-transform: none;
+      font-weight: 700;
+      letter-spacing: 0px;
+      color: #000000;
+      margin-bottom: 0;
+      font-size: 20px;
+      font-family: $body-font;
+      margin-top: 2rem;
+      margin-bottom: 10px;
+      @media screen and (min-width: $lg) {
+        font-size: 25px;
+      }
+    }
+    a {
+      font-size: 12px;
+      letter-spacing: 0.02em;
+      margin-right: 5px;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: black;
+    }
+
+    &:hover {
+      background: #fe8c00; /* fallback for old browsers */
+      background: linear-gradient(
+        to right,
+        #c2385c,
+        lighten($secondary-color, 8%)
+      );
+
+      transition: all 0.2s ease;
+    }
+    &:hover h4 {
+      color: white;
+    }
+    &:hover p {
+      color: white;
+    }
+    &:hover a {
+      color: white;
+    }
+    &:hover svg {
+      fill: white !important;
+    }
+  }
+}

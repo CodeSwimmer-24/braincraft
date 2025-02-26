@@ -1,0 +1,154 @@
+@import "../config";
+
+.navbar {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  color: white;
+  position: relative;
+  justify-content: flex-start;
+  align-items: baseline;
+
+  /* Add the linear gradient background */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+
+  @media screen and (max-width: $md) {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .burger {
+    display: none;
+    @media screen and (max-width: $md) {
+      display: block;
+      padding-right: 0.5rem;
+      i {
+        font-size: 30px;
+        color: white;
+      }
+    }
+  }
+
+  .logo {
+    height: 60px;
+    width: 300px;
+    color: white;
+    z-index: 2;
+    @media screen and (max-width: $md) {
+      width: 200px;
+      height: 60px;
+    }
+
+    svg {
+      height: 35px !important;
+      width: 250px !important;
+      position: relative;
+      fill: #ffff !important;
+      stroke: white !important;
+
+      path {
+        fill: white;
+      }
+    }
+
+    svg {
+      fill: white;
+    }
+  }
+
+  .show {
+    display: flex !important;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .nav-items {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    @media screen and (max-width: $md) {
+      position: absolute;
+      flex-direction: column;
+      background-color: $dark-nav-color;
+      top: 6rem;
+      width: 100%;
+      left: 0;
+      z-index: 2;
+      display: none;
+      color: white;
+      gap: 15px;
+      align-items: flex-start;
+      padding: 2rem 0;
+      padding-bottom: 3rem;
+    }
+
+    .nav-events {
+      div {
+        font-family: rubik, Sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 30px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        color: white;
+        padding: 1px 0;
+      }
+
+      &:hover .event-dropdown {
+        opacity: 1;
+        pointer-events: all;
+      }
+
+      position: relative;
+
+      .event-dropdown {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.2s ease-in-out;
+        background-color: $dark-nav-color;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        z-index: 3;
+        gap: 1rem;
+        width: 280px;
+
+        @media screen and (max-width: $md) {
+          width: 80%;
+          background-color: lighten($dark-nav-color, 7%);
+        }
+
+        a {
+          border-bottom: 1px solid #4d4d4d9e;
+        }
+      }
+    }
+
+    li {
+      list-style: none;
+
+      @media screen and (max-width: $md) {
+        padding: 5px;
+        width: 100%;
+        padding-left: 30px;
+        border-bottom: 1px solid #4d4d4d9e;
+      }
+
+      a {
+        font-family: rubik, Sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 30px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        color: white;
+        padding: 8px 0;
+      }
+    }
+  }
+}
