@@ -11,9 +11,7 @@ function Clients() {
         <p className="clip">WHAT PEOPLE SAY</p>
         <h1>Client's Talk</h1>
         <p className="clients-para">
-          We have a wealth of experience working as main building contractors on
-          all kinds of projects, big and small, from home maintenance and
-          improvements to extensions, refurbishments and new builds.
+          We have extensive experience working as a leading technology software company, delivering solutions for projects of all sizes—from software maintenance and enhancements to system upgrades, integrations, and custom software development.
         </p>
         <button className="homepage-btn">
           VIEW MORE{" "}
@@ -35,30 +33,31 @@ function Clients() {
         <div className="card">
           <div class="card-content">
             <p>
-              I noticed one thing: it's very productive to discuss a project
-              with pople who have technical background. I forgot how to explain
-              obvious technical things that often happen with more humanitarian
-              people and just get more done.
+              Working with BrainCraft was a game-changer for our business. The team took the time to understand our needs and delivered a beautiful website that perfectly represents our brand." – Ajay Singh
             </p>
           </div>
 
           <div class="user-data">
             <div class="author-image">
               <img
-                width="80"
-                height="80"
-                src="https://preview.codeless.co/bygge/default/wp-content/uploads/2021/06/user1.png"
+                width="70"
+                height="70"
+                src="https://img.freepik.com/premium-photo/young-indian-man-with-eyeglasses-nature_75648-1879.jpg?semt=ais_hybrid"
                 class="attachment-thumbnail size-thumbnail wp-post-image"
                 alt=""
                 loading="lazy"
+                style={{
+                  borderRadius: 50,
+                  objectFit: "cover"
+                }}
               />{" "}
             </div>
             <div class="author-data">
               <div class="title">
-                <h4>Jesiu Petit</h4>
+                <h4>Ajay Singh</h4>
               </div>
               <div class="position">
-                <p className="clip">customer </p>
+                <p className="clip">SH Constructions</p>
               </div>
             </div>
           </div>

@@ -8,21 +8,23 @@ import Clients from '../../components/HomePage/Clients/Clients'
 import Team from '../../components/HomePage/Team/Team'
 import Events from '../../components/HomePage/Events/Events'
 import Footer from '../../components/Footer/Footer'
+import Companies from '../../components/About/Companies/Companies'
 
 
 function Home() {
   return (
     <div>
-        
-       <Hero></Hero>
+
+      <Hero></Hero>
       <About></About>
       <Achievements></Achievements>
-      <Services></Services>
+      {/* <Services></Services> */}
+      <Companies></Companies>
       <Clients></Clients>
-      <Team></Team>
+      {/* <Team></Team> */}
       <Events></Events>
       <Footer></Footer>
-        
+
     </div>
   )
 }

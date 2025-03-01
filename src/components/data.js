@@ -154,12 +154,12 @@ const safety_cards = [
 ];
 
 const companies_logos = [
-  "https://lagatar24.com/wp-content/uploads/2022/07/tata_00000.png",
-  "https://cdn.logojoy.com/wp-content/uploads/2018/05/01104846/1952-768x591.png",
-  "https://www.logo-design-india.com/wp-content/uploads/2022/02/3.jpg",
-  "https://lagatar24.com/wp-content/uploads/2022/07/tata_00000.png",
-  "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/corporate-company-logo-design-template-2402e0689677112e3b2b6e0f399d7dc3_screen.jpg?ts=1561532453",
-  "https://lagatar24.com/wp-content/uploads/2022/07/tata_00000.png",
+  "https://png.pngtree.com/template/20191014/ourmid/pngtree-building-and-construction-logo-design-template-image_317780.jpg",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXo262542a_8FMVEPyAVbxVlSRIqMQIDzBw&s",
+  "https://images-platform.99static.com//eNEEQnetjulJgi5N-R46fYOpexg=/598x0:1167x569/fit-in/500x500/99designs-contests-attachments/108/108969/attachment_108969654",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZx-UZVI5SGCtOjDvZ09EHNQyFLIIOb2xQWw&s",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdnA4xuAemVhC_fLw3byKywC_10msV5956RQ&s",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNc40QXRMv8rbvzpYa9ub7xZv12a3ISCQ0SA&s",
 ];
 
 module.exports = {

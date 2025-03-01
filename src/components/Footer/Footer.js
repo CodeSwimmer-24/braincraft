@@ -5,7 +5,7 @@ import logo from "../.././assets/logo.png";
 function Footer() {
   return (
     <div className="footer">
-      <div className="head hide">
+      {/* <div className="head hide">
         <div className="left">
           <h2>Newsletter Signup</h2>
           <p className="clip hide">
@@ -17,7 +17,7 @@ function Footer() {
           <input type="text" placeholder="Your email address" />
           <button>Subscribe</button>
         </div>
-      </div>
+      </div> */}
       <div className="wrapper">
         <div className="body">
           <div className="logo cursive footer-logo">
@@ -54,7 +54,7 @@ function Footer() {
               </Link>
               <Link to="/csr">
                 {" "}
-                <p>CSR</p>
+                <p>Projects</p>
               </Link>
               <Link to="/contact">
                 {" "}

@@ -13,133 +13,72 @@ function AllServices() {
         <div className="all-services-cards-card">
           <img
             src={
-              "https://i.guim.co.uk/img/media/59f0068c7028ebdf7bc0d1ca529b0c97dd411b34/0_0_5700_3421/master/5700.jpg?width=1200&quality=85&auto=format&fit=max&s=1dee12695914cb8b351f7da3b9e674e4"
+              "https://www.greavesdesign.co.uk/wp-content/uploads/2015/08/uberski.jpg"
             }
             alt=""
           />
           <div>
             <span className="clip">01.</span>
-            <h2>Man Power</h2>
+            <h2>Custom Website Design</h2>
             <p className="description">
-              Lorem Lorem ipsum dolor sit. Lorem ipsum dolor, sit amet
-              consectetur adipisicing elit. Aliquid, velit. ipsum dolor sit amet
-              consectetur, adipisicing elit. Aperiam, suscipit.
+              From business websites to portfolio pages, we create websites that are not only visually appealing but also fully functional and responsive across all devices.
             </p>
           </div>
         </div>
         <div className="all-services-cards-card">
           <img
-            src="https://cdn.outsource2india.com/callcenter/images/call-center-technical-support-services.jpg"
+            src="https://www.tlpglobus.com/wp-content/uploads/2021/12/E-Commerce.png"
             alt=""
           />
           <div>
             <span className="clip">02.</span>
-            <h2>Technical Support</h2>
+            <h2>E-Commerce Solutions</h2>
             <p className="description">
-              Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-              nobis magni maxime exercitationem natus ab ullam vel quo dicta.
-              ipsum dolor sit amet consectetur, adipisicing elit. Aperiam,
-              suscipit.
+              Transform your online store with our e-commerce website development services.
             </p>
           </div>
         </div>
 
         <div className="all-services-cards-card">
           <img
-            src="https://targetjobs.co.uk/static/127e160c50c06901119c99607ba398d4/a4e0a/maintenance-engineer_1140x350.jpg"
+            src="https://res.cloudinary.com/apptailors/image/upload/v1668503557/blog/Mobile-app-development-process-01-1-min-1024x770_uznlx9.png"
             alt=""
           />
           <div>
             <span className="clip">03.</span>
-            <h2>Mechanical Maintenance</h2>
+            <h2>Mobile App Development</h2>
             <p className="description">
-              Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-              nobis magni maxime exercitationem natus ab ullam vel quo dicta.
-              ipsum dolor sit amet consectetur, adipisicing elit. Aperiam,
-              suscipit.
+              In today's mobile-first world, having a mobile app is essential.
             </p>
           </div>
         </div>
 
         <div className="all-services-cards-card">
           <img
-            src="https://www.actionliftinc.com/assets/cache/images/photos/blog/blog_21/img_2688.rs-770x350-202.jpg"
+            src="https://cdn.intuji.com/2023/08/Custom-software-development.jpg"
             alt=""
           />
           <div>
             <span className="clip">04.</span>
-            <h2>Battery Maintenance</h2>
+            <h2>Content Management Systems (CMS)
+            </h2>
             <p className="description">
-              Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-              nobis magni maxime exercitationem natus ab ullam vel quo dicta.
-              ipsum dolor sit amet consectetur, adipisicing elit. Aperiam,
-              suscipit.
+              Manage your website effortlessly with a powerful CMS. We offer tailored CMS solutions that allow you to easily update, modify.
             </p>
           </div>
         </div>
 
         <div className="all-services-cards-card">
           <img
-            src="https://www.haroldgerrlaw.com/wp-content/uploads/2020/12/construction-men.jpg"
+            src="https://s.tmimgcdn.com/scr/800x500/218200/sceo-seo-services-seo-provider-company-and-digital-marketing-agency-elementor-wordpress-theme_218220-original.png"
             alt=""
           />
           <div>
             <span className="clip">05.</span>
-            <h2>Rebuilding Jobs</h2>
+            <h2>SEO & Digital Marketing Services</h2>
             <p className="description">
               Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
               nobis magni maxime exercitationem natus ab ullam vel quo dicta.
-              ipsum dolor sit amet consectetur, adipisicing elit. Aperiam,
-              suscipit.
-            </p>
-          </div>
-        </div>
-        <div className="all-services-cards-card">
-          <img
-            src="https://image.made-in-china.com/2f0j00derGWbICHUoR/Manufacturers-Supply-High-Speed-Linear-Cross-Belt-Sorting-Conveyor-Automatic-Sweep-Code-Cross-Belt-Sorting-Line.jpg"
-            alt=""
-          />
-          <div>
-            <span className="clip">06.</span>
-            <h2>Global Arc for Conveiour Belt Maintenance</h2>
-            <p className="description">
-              Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-              nobis magni maxime exercitationem natus ab ullam vel quo dicta.
-              ipsum dolor sit amet consectetur, adipisicing elit. Aperiam,
-              suscipit.
-            </p>
-          </div>
-        </div>
-        <div className="all-services-cards-card">
-          <img
-            src="https://www.lntecc.com/media/hm1pdtm4/pellet-and-sinter-plants-in-jamshedpur-l-t-construction.jpg?anchor=center&mode=crop&width=1920&height=720&rnd=132875719622600000"
-            alt=""
-          />
-          <div>
-            <span className="clip">07.</span>
-            <h2>Mega Arc</h2>
-            <p className="description">
-              Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-              nobis magni maxime exercitationem natus ab ullam vel quo dicta.
-              ipsum dolor sit amet consectetur, adipisicing elit. Aperiam,
-              suscipit.
-            </p>
-          </div>
-        </div>
-
-        <div className="all-services-cards-card">
-          <img
-            src="https://nebula.wsimg.com/2bf30ed96a0927cb40fc0a9dc94bec49?AccessKeyId=052074AA7A09C25FB78D&disposition=0&alloworigin=1"
-            alt=""
-          />
-          <div>
-            <span className="clip">08.</span>
-            <h2>Integrated Electrical Maintenance Mechanical Jobs</h2>
-            <p className="description">
-              Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-              nobis magni maxime exercitationem natus ab ullam vel quo dicta.
-              ipsum dolor sit amet consectetur, adipisicing elit. Aperiam,
-              suscipit.
             </p>
           </div>
         </div>

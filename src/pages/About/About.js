@@ -11,15 +11,14 @@ import Companies from "../../components/About/Companies/Companies";
 function About() {
   return (
     <>
-    <Hero></Hero>
-    <Stats></Stats>
-    <Values></Values>
-    <Projects></Projects>
-    <Timeline></Timeline>
-    <Staff></Staff>
-    <Companies></Companies>
-    <Footer></Footer>
-    
+      <Hero></Hero>
+      <Stats></Stats>
+      <Values></Values>
+      <Projects></Projects>
+      <Timeline></Timeline>
+      {/* <Companies></Companies> */}
+      <Footer></Footer>
+
     </>
 
   );

@@ -5,14 +5,12 @@ function Companies() {
   return (
     <div className="companies">
       <div className="companies-left">
-        <p className="clip">MEET OUR PARTNERS</p>
-        <h1>You are in a great company.</h1>
+        <p className="clip">MEET OUR Clients</p>
+        <h1>Our Clients.</h1>
         <p className="description">
-          We are a long-established, independent building services and home
-          improvements company. We have a wealth of experience working as main
-          building contractors on all kinds of projects, big and small, from
-          home maintenance and improvements to extensions, refurbishments and
-          new builds.
+          We have a wealth of experience working as software organization
+          on all kinds of projects, big and small, from website designing and
+          custome software Development according to the business need.
         </p>
       </div>
       <div className="companies-right">

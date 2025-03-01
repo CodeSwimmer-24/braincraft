@@ -161,11 +161,11 @@ function About() {
             and tailored web solutions for success!
           </h1>
           <p className="about-para">
-            We provide innovative digital solutions to elevate your business!
-            From stunning website designs and powerful e-commerce platforms to
-            cutting-edge mobile apps and custom web solutions, we craft
-            seamless, high-performing experiences that drive success. Let’s
-            build something amazing together!
+            At BrainCraft, we specialize in crafting custom websites, e-commerce
+            platforms, mobile apps, and tailored web solutions to meet the
+            unique needs of your business. Whether you're looking to create a
+            stunning website, build a powerful online store, or develop a mobile
+            app that connects with your audience, we’ve got you covered.
           </p>
           <button className="homepage-btn">
             VIEW MORE{" "}

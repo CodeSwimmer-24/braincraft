@@ -16,7 +16,7 @@ function Events() {
         <div className="card">
           <div className="img">
             <img
-              src="https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303-300x169.jpg"
+              src="https://www.safetymint.com/blog/wp-content/uploads/2021/03/real-time-safety-statistics-dashboard.png"
               alt=""
             />
           </div>
@@ -26,7 +26,7 @@ function Events() {
         <div className="card hide">
           <div className="img">
             <img
-              src="https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/bpost2-300x181.jpg"
+              src="https://s3-alpha.figma.com/hub/file/6049995421/01b02a32-fc9b-4834-969d-bf8cd6a4c028-cover.png"
               alt=""
             />
           </div>
@@ -36,7 +36,7 @@ function Events() {
         <div className="card hide">
           <div className="img">
             <img
-              src="https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/bpost1-300x181.jpg"
+              src="https://images.ctfassets.net/dfcvkz6j859j/3QfApqak2v8xyrXzSMfVUJ/07982381f5ea6c84ea8d96a2cf8f0fb7/google-ads-dashboard-example.png"
               alt=""
             />
           </div>
