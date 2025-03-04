@@ -26,11 +26,11 @@ function Footer() {
           <div className="sub-grp">
             <h3>Office</h3>
             <div className="content">
-              <p>+800 123 456 789</p>
+              <p>+91 7272977850</p>
               <p>info@braincraft.in</p>
               <p>
-                22/31, REDBUD DRIVE
-                <p>WHITESTONE, INDIA 124093</p>
+                G51/5, Shaheen Bagh,
+                <p>New Delhi, INDIA 110025</p>
               </p>
               <p>
                 MON – SAT: 9 AM – 9 PM <p>SUN: CLOSED</p>
@@ -80,9 +80,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <p className="footer-clip">
-          © 2022, ALL RIGHTS RESERVED | S.H. Constructions
-        </p>
+        <p className="footer-clip">© 2022, ALL RIGHTS RESERVED | BrainCraft</p>
       </div>
     </div>
   );

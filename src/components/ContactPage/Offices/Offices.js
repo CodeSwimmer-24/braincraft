@@ -15,13 +15,13 @@ function Offices() {
             <div>
               <i className="fas fa-location-dot location"></i>{" "}
               <p>
-                Holmlia Senter vei 33, <br /> Del, India 1255
+                G12 Sahara City, <br /> Jamshedpur, India 831005
               </p>
             </div>
             <div>
               <i className="fa-solid fa-comment"></i>{" "}
               <p>
-                +91-123-4567 <br /> info@shCon.com
+                +91-7272977850 <br /> info@braincraft.in
               </p>
             </div>
 
@@ -35,19 +35,19 @@ function Offices() {
         </div>
 
         <div className="offices-cards-card">
-          <h3>Kalinganagar Office</h3>
+          <h3>Delhi Office</h3>
           <div className="card-content">
             <div>
               <i className="fas fa-location-dot location"></i>{" "}
               <p>
-                Holmlia Senter vei 33,
-                <br /> Del, India 1255
+                G15/5 Shaheen Bagh,
+                <br /> New Delhi, India 110025
               </p>
             </div>
             <div>
               <i className="fa-solid fa-comment"></i>{" "}
               <p>
-                +91-123-4567 <br /> info@shCon.com
+                +91-123-4567 <br /> danish@braincraft.in
               </p>
             </div>
 
@@ -61,19 +61,19 @@ function Offices() {
         </div>
 
         <div className="offices-cards-card">
-          <h3>Bokaro Office</h3>
+          <h3>Kolkata Office</h3>
           <div className="card-content">
             <div>
               <i className="fas fa-location-dot location"></i>{" "}
               <p>
-                Holmlia Senter vei 33,
-                <br /> Del, India 1255
+                B15 Vecctoria Hall
+                <br /> Kolkata, India 700014
               </p>
             </div>
             <div>
               <i className="fa-solid fa-comment"></i>{" "}
               <p>
-                +91-123-4567 <br /> info@shCon.com
+                +91-123-4567 <br /> fahad@braincraft.in
               </p>
             </div>
 

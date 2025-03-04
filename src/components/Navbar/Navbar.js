@@ -38,7 +38,7 @@ function Navbar({ dark }) {
           <Link to={"/"}>Home</Link>
         </li>
         <li className="underline">
-          <Link to={"/about"}>About</Link>
+          <Link to={"/about"}>About Us</Link>
         </li>
         <li className="underline">
           <Link to="/services">Services</Link>

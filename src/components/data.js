@@ -116,13 +116,13 @@ const achieve_cards = [
     url: "https://gegok12.com/wp-content/uploads/2022/03/blog74.png",
     title: "Management System",
     subText1: "SH Construction",
-    subText2: "TATA STEEL",
+    subText2: "TATA STEEL Vendor Patner",
   },
   {
     url: "https://images.ctfassets.net/kepwgvmwgwnt/3pQlyEApwZSKXYb5pDcwBV/be4e56c54b663056948f0830654a5016/2Y2WiWnc.png",
     title: "Inventory management",
     subText1: "Century Builders",
-    subText2: "TATA STEEL",
+    subText2: "TATA STEEL Vendor Patner",
   },
 ];
 

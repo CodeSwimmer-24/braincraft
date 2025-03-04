@@ -5,8 +5,8 @@ function Events() {
     <div className="events p-2">
       <div className="heading">
         <div className="left">
-          <p className="clip">Our Events</p>
-          <h1>Recent Projects</h1>
+          <p className="clip">We are currently worling</p>
+          <h1>Ongoing Projects</h1>
         </div>
         <div className="right">
           <button className="homepage-btn">VIEW MORE</button>
@@ -20,7 +20,7 @@ function Events() {
               alt=""
             />
           </div>
-          <p className="clip">{new Date().toLocaleDateString()}</p>
+          <p className="clip">SH CONSTRUCTIONS CO.</p>
           <h3>Safety Management System, CSMS</h3>
         </div>{" "}
         <div className="card hide">
@@ -30,7 +30,7 @@ function Events() {
               alt=""
             />
           </div>
-          <p className="clip">{new Date().toLocaleDateString()}</p>
+          <p className="clip">Property Seeker</p>
           <h3>Real Estate and Property Mobile App Designing</h3>
         </div>{" "}
         <div className="card hide">
@@ -40,7 +40,7 @@ function Events() {
               alt=""
             />
           </div>
-          <p className="clip">{new Date().toLocaleDateString()}</p>
+          <p className="clip">Club Adds</p>
           <h3>Custom Google Advertising Management Dashboard</h3>
         </div>
       </div>

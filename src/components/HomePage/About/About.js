@@ -4,8 +4,10 @@ import card2 from "../../../assets/about-card2.png";
 import card3 from "../../../assets/about-card3.png";
 import card4 from "../../../assets/about-card4.png";
 import abtBg from "../../../assets/about-bg.png";
+import { useHistory, useNavigate } from "react-router-dom";
 
 function About() {
+  const navigator = useNavigate();
   return (
     <>
       <div className="about">
@@ -167,7 +169,10 @@ function About() {
             stunning website, build a powerful online store, or develop a mobile
             app that connects with your audience, we’ve got you covered.
           </p>
-          <button className="homepage-btn">
+          <button
+            className="homepage-btn"
+            onClick={() => navigator("/services")}
+          >
             VIEW MORE{" "}
             <svg
               width="9"
