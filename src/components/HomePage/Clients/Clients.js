@@ -11,9 +11,12 @@ function Clients() {
         <p className="clip">WHAT PEOPLE SAY</p>
         <h1>Client's Talk</h1>
         <p className="clients-para">
-          We have extensive experience working as a leading technology software company, delivering solutions for projects of all sizes—from software maintenance and enhancements to system upgrades, integrations, and custom software development.
+          We have extensive experience working as a leading technology software
+          company, delivering solutions for projects of all sizes—from software
+          maintenance and enhancements to system upgrades, integrations, and
+          custom software development.
         </p>
-        <button className="homepage-btn">
+        {/* <button className="homepage-btn">
           VIEW MORE{" "}
           <svg
             width="9"
@@ -27,13 +30,16 @@ function Clients() {
               fill="#CA3D00"
             />
           </svg>
-        </button>
+        </button> */}
       </div>
       <div className="clients-right">
         <div className="card">
           <div class="card-content">
             <p>
-              Working with BrainCraft was a game-changer for our business. The team took the time to understand our needs and delivered a beautiful website that perfectly represents our brand." – Ajay Singh
+              Working with BrainCraft was a game-changer for our business. The
+              team took the time to understand our needs and delivered a
+              beautiful website that perfectly represents our brand." – Ajay
+              Singh
             </p>
           </div>
 
@@ -48,7 +54,7 @@ function Clients() {
                 loading="lazy"
                 style={{
                   borderRadius: 50,
-                  objectFit: "cover"
+                  objectFit: "cover",
                 }}
               />{" "}
             </div>

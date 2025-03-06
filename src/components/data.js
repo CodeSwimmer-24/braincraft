@@ -1,3 +1,6 @@
+import digilogo from "../assets/digilogo.png";
+import seeup from "../assets/seeup.png";
+
 const sustain_posts = [
   {
     title: "Stakeholder engagement",
@@ -110,7 +113,7 @@ const achieve_cards = [
     url: "https://cdn.dribbble.com/userupload/7565332/file/original-1c58ec3adac8e295c715249f0a11961e.jpg?format=webp&resize=400x300&vertical=center",
     title: "Mobile App Design",
     subText1: "Digimazdoor",
-    subText2: "Iron Making plant",
+    subText2: "New Delhi, India",
   },
   {
     url: "https://gegok12.com/wp-content/uploads/2022/03/blog74.png",
@@ -154,15 +157,15 @@ const safety_cards = [
 ];
 
 const companies_logos = [
-  "https://png.pngtree.com/template/20191014/ourmid/pngtree-building-and-construction-logo-design-template-image_317780.jpg",
+  seeup,
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXo262542a_8FMVEPyAVbxVlSRIqMQIDzBw&s",
-  "https://images-platform.99static.com//eNEEQnetjulJgi5N-R46fYOpexg=/598x0:1167x569/fit-in/500x500/99designs-contests-attachments/108/108969/attachment_108969654",
+  digilogo, // Use the imported image instead of a relative path in the array
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZx-UZVI5SGCtOjDvZ09EHNQyFLIIOb2xQWw&s",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdnA4xuAemVhC_fLw3byKywC_10msV5956RQ&s",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNc40QXRMv8rbvzpYa9ub7xZv12a3ISCQ0SA&s",
 ];
 
-module.exports = {
+export {
   achieve_cards,
   sustain_cards,
   sustain_posts,

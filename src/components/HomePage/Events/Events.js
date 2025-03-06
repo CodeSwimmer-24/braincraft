@@ -5,12 +5,12 @@ function Events() {
     <div className="events p-2">
       <div className="heading">
         <div className="left">
-          <p className="clip">We are currently worling</p>
+          <p className="clip">We are currently working</p>
           <h1>Ongoing Projects</h1>
         </div>
-        <div className="right">
+        {/* <div className="right">
           <button className="homepage-btn">VIEW MORE</button>
-        </div>
+        </div> */}
       </div>
       <div className="cards">
         <div className="card">

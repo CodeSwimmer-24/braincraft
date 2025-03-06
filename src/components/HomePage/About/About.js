@@ -14,7 +14,7 @@ function About() {
         {/* <img src={abtBg} alt="" className="abtBg" /> */}
         <div className="about-left">
           <div className="row">
-            <div className="card">
+            <div className="card" onClick={() => navigator("/services")}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 id="Capa_1"
@@ -37,7 +37,7 @@ function About() {
                 <i className="fas fa-chevron-right right-own-arrow"></i>
               </button>
             </div>
-            <div className="card">
+            <div className="card" onClick={() => navigator("/services")}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 id="Capa_1"
@@ -102,7 +102,7 @@ function About() {
           </div>
 
           <div className="row">
-            <div className="card">
+            <div className="card" onClick={() => navigator("/services")}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 id="Capa_1"
@@ -128,7 +128,7 @@ function About() {
                 <i className="fas fa-chevron-right right-own-arrow"></i>
               </button>
             </div>
-            <div className="card">
+            <div className="card" onClick={() => navigator("/services")}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="512"

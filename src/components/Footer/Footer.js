@@ -26,8 +26,8 @@ function Footer() {
           <div className="sub-grp">
             <h3>Office</h3>
             <div className="content">
-              <p>+91 7272977850</p>
-              <p>info@braincraft.in</p>
+              <p>+91 8130954219</p>
+              <p>contact@braincraft.in</p>
               <p>
                 G51/5, Shaheen Bagh,
                 <p>New Delhi, INDIA 110025</p>
