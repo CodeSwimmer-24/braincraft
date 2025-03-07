@@ -1,23 +1,10 @@
 import { Link } from "react-router-dom";
 import "./Footer.scss";
-import logo from "../.././assets/logo.png";
+import logo from "../../assets/logo.png";
 
 function Footer() {
   return (
     <div className="footer">
-      {/* <div className="head hide">
-        <div className="left">
-          <h2>Newsletter Signup</h2>
-          <p className="clip hide">
-            Get notified about updates <br /> Be the first to get early access
-            to new episodes.
-          </p>
-        </div>
-        <div className="right hide">
-          <input type="text" placeholder="Your email address" />
-          <button>Subscribe</button>
-        </div>
-      </div> */}
       <div className="wrapper">
         <div className="body">
           <div className="logo cursive footer-logo">
@@ -41,23 +28,18 @@ function Footer() {
             <h3>Links</h3>
             <div className="content links">
               <Link to="/">
-                {" "}
                 <p>Home</p>
               </Link>
               <Link to="/about">
-                {" "}
                 <p>About</p>
               </Link>
               <Link to="/services">
-                {" "}
                 <p>Services</p>
               </Link>
               <Link to="/csr">
-                {" "}
                 <p>Projects</p>
               </Link>
               <Link to="/contact">
-                {" "}
                 <p>Contact</p>
               </Link>
             </div>
@@ -65,18 +47,41 @@ function Footer() {
           <div className="sub-grp">
             <h3>Social Links</h3>
             <div className="logos">
-              <div className="social">
-                <i class="fa-brands fa-facebook"></i>
-              </div>
-              <div className="social">
-                <i class="fa-brands fa-twitter"></i>
-              </div>
-              <div className="social">
-                <i class="fa-brands fa-instagram"></i>
-              </div>
-              <div className="social">
-                <i class="fa-brands fa-linkedin"></i>
-              </div>
+              <a
+                className="social"
+                href="https://www.facebook.com/braincraft.in"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-facebook"></i>
+              </a>
+
+              <a
+                className="social"
+                href="https://wa.me/918130954219"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-whatsapp"></i>
+              </a>
+
+              <a
+                className="social"
+                href="https://instagram.com/braincraft.in"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+
+              <a
+                className="social"
+                href="https://www.linkedin.com/company/braincraft-in"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
             </div>
           </div>
         </div>
