@@ -14,7 +14,7 @@ function Footer() {
             <h3>Office</h3>
             <div className="content">
               <p>+91 8130954219</p>
-              <p>contact@braincraft.in</p>
+              <p>support@braincraft.in</p>
               <p>
                 G51/5, Shaheen Bagh,
                 <p>New Delhi, INDIA 110025</p>
@@ -76,7 +76,7 @@ function Footer() {
 
               <a
                 className="social"
-                href="https://www.linkedin.com/company/braincraft-in"
+                href="https://www.linkedin.com/company/braincraftin"
                 target="_blank"
                 rel="noopener noreferrer"
               >

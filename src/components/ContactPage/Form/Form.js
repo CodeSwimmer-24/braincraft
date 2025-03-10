@@ -1,13 +1,46 @@
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
   FaLinkedinIn,
+  FaSpinner,
 } from "react-icons/fa";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 import "./Form.scss";
 
 export default function Form() {
+  const form = useRef();
+  const [loading, setLoading] = useState(false); // ✅ Loading state
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setLoading(true); // ✅ Start loading
+
+    emailjs
+      .sendForm(
+        "service_h7cz6fe",
+        "template_e9bce2a",
+        form.current,
+        "Xl1OpHbGVa3Z2JDJs"
+      )
+      .then(
+        (result) => {
+          alert(
+            "Thanks for your query, our team will connect with you shortly."
+          );
+          form.current.reset();
+          setLoading(false); // ✅ Stop loading
+        },
+        (error) => {
+          console.log(error);
+          alert("Failed to send message. Please try again.");
+          setLoading(false); // ✅ Stop loading
+        }
+      );
+  };
+
   return (
     <div className="contact-container">
       {/* Left Section - Contact Form */}
@@ -18,24 +51,37 @@ export default function Form() {
           asperiores platea ipsum ad arcu. Nostrud. Esse? Aut nostrum, ornare
           quas provident laoreet nescuint odio.
         </p>
-        <form className="contact-form-elements">
+        <form ref={form} onSubmit={sendEmail} className="contact-form-elements">
           <input
             type="text"
+            name="user_name" // ✅ This must match EmailJS template
             placeholder="Your Name*"
             className="contact-input"
+            required
           />
           <input
             type="email"
+            name="user_email" // ✅ This must match EmailJS template
             placeholder="Your Email*"
             className="contact-input"
+            required
           />
           <input
             type="text"
+            name="user_contact" // ✅ This must match EmailJS template
             placeholder="Your Contact*"
             className="contact-input"
+            required
           />
-          <textarea placeholder="Your Message*" className="contact-textarea" />
-          <button className="contact-button">SUBMIT MESSAGE</button>
+          <textarea
+            name="message" // ✅ This must match EmailJS template
+            placeholder="Your Message*"
+            className="contact-textarea"
+            required
+          />
+          <button type="submit" className="contact-button" disabled={loading}>
+            {loading ? <FaSpinner className="spinner" /> : "SUBMIT MESSAGE"}
+          </button>
         </form>
       </div>
 
@@ -44,7 +90,6 @@ export default function Form() {
         <h2 className="contact-help-title">
           Need help ?? Feel free to contact us !
         </h2>
-        {/* <p className="contact-help-text">Penatibus numquam? Non?</p> */}
         <div className="contact-details">
           <div className="contact-detail">
             <MdLocationOn className="contact-icon" />
@@ -59,7 +104,7 @@ export default function Form() {
             <MdEmail className="contact-icon" />
             <div>
               <h3 className="contact-detail-title">Email Address</h3>
-              <p className="contact-detail-text">conatct@braincraft.in</p>
+              <p className="contact-detail-text">support@braincraft.in</p>
             </div>
           </div>
           <div className="contact-detail">
@@ -70,21 +115,6 @@ export default function Form() {
             </div>
           </div>
         </div>
-        {/* <h3 className="contact-social-title">Follow us on social media..</h3>
-        <div className="contact-social-icons">
-          <div className="social-icon">
-            <FaFacebookF className="social-icon-item" />
-          </div>
-          <div className="social-icon">
-            <FaTwitter className="social-icon-item" />
-          </div>
-          <div className="social-icon">
-            <FaInstagram className="social-icon-item" />
-          </div>
-          <div className="social-icon">
-            <FaLinkedinIn className="social-icon-item" />
-          </div> */}
-        {/* </div> */}
       </div>
     </div>
   );
