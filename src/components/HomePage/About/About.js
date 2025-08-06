@@ -163,11 +163,12 @@ function About() {
             and tailored web solutions for success!
           </h1>
           <p className="about-para">
-            At BrainCraft, we specialize in crafting custom websites, e-commerce
-            platforms, mobile apps, and tailored web solutions to meet the
-            unique needs of your business. Whether you're looking to create a
-            stunning website, build a powerful online store, or develop a mobile
-            app that connects with your audience, we’ve got you covered.
+            At Abreast Consultancy Services, we specialize in crafting custom
+            websites, e-commerce platforms, mobile apps, and tailored web
+            solutions to meet the unique needs of your business. Whether you're
+            looking to create a stunning website, build a powerful online store,
+            or develop a mobile app that connects with your audience, we’ve got
+            you covered.
           </p>
           <button
             className="homepage-btn"

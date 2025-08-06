@@ -8,16 +8,23 @@ function Footer() {
       <div className="wrapper">
         <div className="body">
           <div className="logo cursive footer-logo">
-            <img src={logo} alt="logo" className="hero-logo" />
+            <img
+              src={logo}
+              alt="logo"
+              className="hero-logo"
+              style={{
+                height: "100px",
+              }}
+            />
           </div>
           <div className="sub-grp">
             <h3>Office</h3>
             <div className="content">
-              <p>+91 8130954219</p>
-              <p>support@braincraft.in</p>
+              <p>+91 9939084007</p>
+              <p>contact@abreastconsultancyservices.com</p>
               <p>
-                G51/5, Shaheen Bagh,
-                <p>New Delhi, INDIA 110025</p>
+                60/A Baidyanath Bagan Area Behind Sakchi Gurudwara,
+                <p>Jamshedpur - 831001 Jharkhand, India</p>
               </p>
               <p>
                 MON – SAT: 9 AM – 9 PM <p>SUN: CLOSED</p>
@@ -49,7 +56,7 @@ function Footer() {
             <div className="logos">
               <a
                 className="social"
-                href="https://www.facebook.com/braincraft.in"
+                href="https://www.facebook.com/contact@abreastconsultancyservices.in"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -58,7 +65,7 @@ function Footer() {
 
               <a
                 className="social"
-                href="https://wa.me/918130954219"
+                href="https://wa.me/919939084007"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -67,7 +74,7 @@ function Footer() {
 
               <a
                 className="social"
-                href="https://instagram.com/braincraft.in"
+                href="https://instagram.com/contact@abreastconsultancyservices.in"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -76,7 +83,7 @@ function Footer() {
 
               <a
                 className="social"
-                href="https://www.linkedin.com/company/braincraftin"
+                href="https://www.linkedin.com/company/Abreast Consultancy Servicesin"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -85,7 +92,9 @@ function Footer() {
             </div>
           </div>
         </div>
-        <p className="footer-clip">© 2022, ALL RIGHTS RESERVED | BrainCraft</p>
+        <p className="footer-clip">
+          © 2022, ALL RIGHTS RESERVED | Abreast Consultancy Services
+        </p>
       </div>
     </div>
   );

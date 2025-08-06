@@ -9,15 +9,15 @@ function Stats() {
           Software Development company to provide the best software solution.
         </h1>
         <p>
-          At BrainCraft, we specialize in crafting custom websites, e-commerce
-          platforms, mobile apps, and tailored web solutions to meet the unique
-          needs of your business. Whether you're looking to create a stunning
-          website, build a powerful online store, or develop a mobile app that
-          connects with your audience, we’ve got you covered. Our team of
-          experts combines creativity with cutting-edge technology to deliver
-          solutions that not only look amazing but perform seamlessly across all
-          devices. Let us help you take your business to the next level with
-          innovative digital experiences.
+          At Abreast Consultancy Services, we specialize in crafting custom
+          websites, e-commerce platforms, mobile apps, and tailored web
+          solutions to meet the unique needs of your business. Whether you're
+          looking to create a stunning website, build a powerful online store,
+          or develop a mobile app that connects with your audience, we’ve got
+          you covered. Our team of experts combines creativity with cutting-edge
+          technology to deliver solutions that not only look amazing but perform
+          seamlessly across all devices. Let us help you take your business to
+          the next level with innovative digital experiences.
         </p>
       </div>
       <div className="right">

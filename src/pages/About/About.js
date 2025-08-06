@@ -8,6 +8,7 @@ import Timeline from "../../components/About/Timeline/Timeline";
 import Companies from "../../components/About/Companies/Companies";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import SocialButton from "../../components/Button/SocialButton";
+import Profile from "./Profile/Profile";
 
 function About() {
   return (
@@ -17,7 +18,8 @@ function About() {
       <Values></Values>
 
       <Timeline></Timeline>
-      {/* <Companies></Companies> */}
+      <Profile></Profile>
+      <Companies></Companies>
       <Footer></Footer>
       <SocialButton />
     </>

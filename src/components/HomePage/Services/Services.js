@@ -16,11 +16,10 @@ function Services() {
           <p className="clip">WHAT WE OFFER</p>
           <h1 className="services-heading">Our Clients</h1>
           <p className="services-para">
-            We have a wealth of experience working as software organization
-            on all kinds of projects, big and small, from website designing and
+            We have a wealth of experience working as software organization on
+            all kinds of projects, big and small, from website designing and
             custome software Development according to the business need.
           </p>
-
         </div>
         <div className="services-top-right">
           <div className="card services-top-card">
@@ -39,7 +38,6 @@ function Services() {
               style={{ width: "30%", height: "20%" }}
             />
             <h4>CENTURY BUILDERS</h4>
-
           </div>
         </div>
       </div>
@@ -54,7 +52,6 @@ function Services() {
           />
           <h4>BLUE PETER</h4>
           <a className="clip">
-
             <svg
               width="9"
               height="10"
@@ -77,7 +74,6 @@ function Services() {
             style={{ width: "40%" }}
           />
           <h4>VIBRATION</h4>
-
         </div>
         <div className="card">
           <p className="clip index">05.</p>
@@ -87,7 +83,6 @@ function Services() {
             style={{ width: "50%" }}
           />
           <h4>DIGIMAZDOOR</h4>
-
         </div>
         <div className="card">
           <p className="clip index">06.</p>
@@ -97,7 +92,6 @@ function Services() {
             alt=""
           />
           <h4>AMBIENTE APL</h4>
-
         </div>
       </div>
     </div>

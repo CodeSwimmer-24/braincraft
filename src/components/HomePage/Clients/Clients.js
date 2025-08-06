@@ -36,10 +36,10 @@ function Clients() {
         <div className="card">
           <div class="card-content">
             <p>
-              Working with BrainCraft was a game-changer for our business. The
-              team took the time to understand our needs and delivered a
-              beautiful website that perfectly represents our brand." – Ajay
-              Singh
+              Working with Abreast Consultancy Services was a game-changer for
+              our business. The team took the time to understand our needs and
+              delivered a beautiful website that perfectly represents our
+              brand." – Ajay Singh
             </p>
           </div>
 
@@ -63,7 +63,7 @@ function Clients() {
                 <h4>Ajay Singh</h4>
               </div>
               <div class="position">
-                <p className="clip">SH Constructions</p>
+                <p className="clip">Seeup Tech</p>
               </div>
             </div>
           </div>

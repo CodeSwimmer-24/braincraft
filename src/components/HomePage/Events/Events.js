@@ -20,28 +20,28 @@ function Events() {
               alt=""
             />
           </div>
-          <p className="clip">SH CONSTRUCTIONS CO.</p>
-          <h3>Safety Management System, CSMS</h3>
+          <p className="clip">Abreast Engineering Company</p>
+          <h3>Safety Management System, SMS</h3>
         </div>{" "}
         <div className="card hide">
           <div className="img">
             <img
-              src="https://s3-alpha.figma.com/hub/file/6049995421/01b02a32-fc9b-4834-969d-bf8cd6a4c028-cover.png"
+              src="https://www.donesafe.com/wp-content/uploads/2025/06/Donesafe-safety-system-dashboard.png"
               alt=""
             />
           </div>
-          <p className="clip">Property Seeker</p>
-          <h3>Real Estate and Property Mobile App Designing</h3>
+          <p className="clip">Abreast Engineering Company</p>
+          <h3>Contractor Safety Management System, CSMS</h3>
         </div>{" "}
         <div className="card hide">
           <div className="img">
             <img
-              src="https://images.ctfassets.net/dfcvkz6j859j/3QfApqak2v8xyrXzSMfVUJ/07982381f5ea6c84ea8d96a2cf8f0fb7/google-ads-dashboard-example.png"
+              src="https://cdn.dribbble.com/userupload/5278140/file/original-81752f5c8887a651a5cf48ec26239658.jpg?format=webp&resize=400x300&vertical=center"
               alt=""
             />
           </div>
-          <p className="clip">Club Adds</p>
-          <h3>Custom Google Advertising Management Dashboard</h3>
+          <p className="clip">Abreast Engineering Company</p>
+          <h3>E-Learning Application</h3>
         </div>
       </div>
     </div>

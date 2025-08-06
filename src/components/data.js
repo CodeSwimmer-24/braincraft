@@ -158,11 +158,11 @@ const safety_cards = [
 
 const companies_logos = [
   seeup,
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXo262542a_8FMVEPyAVbxVlSRIqMQIDzBw&s",
-  digilogo, // Use the imported image instead of a relative path in the array
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZx-UZVI5SGCtOjDvZ09EHNQyFLIIOb2xQWw&s",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdnA4xuAemVhC_fLw3byKywC_10msV5956RQ&s",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNc40QXRMv8rbvzpYa9ub7xZv12a3ISCQ0SA&s",
+  "https://www.spoxtale.com/wp-content/uploads/2023/12/14.png",
+  "	https://www.spoxtale.com/wp-content/uploads/2023/12/19.png", // Use the imported image instead of a relative path in the array
+  "https://www.spoxtale.com/wp-content/uploads/2023/12/25.png",
+  "	https://www.spoxtale.com/wp-content/uploads/2023/12/10.png",
+  "https://www.spoxtale.com/wp-content/uploads/2023/12/5.png",
 ];
 
 export {

@@ -21,7 +21,7 @@ function Offices() {
             <div>
               <i className="fa-solid fa-comment"></i>{" "}
               <p>
-                +91-7272977850 <br /> info@braincraft.in
+                +91-7272977850 <br /> info@
               </p>
             </div>
 
@@ -41,13 +41,13 @@ function Offices() {
               <i className="fas fa-location-dot location"></i>{" "}
               <p>
                 G15/5 Shaheen Bagh,
-                <br /> New Delhi, India 110025
+                <br /> Jamshedpur - 831001 Jharkhand, India
               </p>
             </div>
             <div>
               <i className="fa-solid fa-comment"></i>{" "}
               <p>
-                +91-123-4567 <br /> danish@braincraft.in
+                +91-123-4567 <br /> danish@
               </p>
             </div>
 
@@ -73,7 +73,7 @@ function Offices() {
             <div>
               <i className="fa-solid fa-comment"></i>{" "}
               <p>
-                +91-123-4567 <br /> fahad@braincraft.in
+                +91-123-4567 <br /> fahad@
               </p>
             </div>
 

@@ -96,7 +96,8 @@ export default function Form() {
             <div>
               <h3 className="contact-detail-title">Location Address</h3>
               <p className="contact-detail-text">
-                G51/5, Shaheen Bagh, New Delhi, INDIA 110025
+                60/A Baidyanath Bagan Area Behind Sakchi Gurudwara, Jamshedpur -
+                831001 Jharkhand, India
               </p>
             </div>
           </div>
@@ -104,14 +105,16 @@ export default function Form() {
             <MdEmail className="contact-icon" />
             <div>
               <h3 className="contact-detail-title">Email Address</h3>
-              <p className="contact-detail-text">support@braincraft.in</p>
+              <p className="contact-detail-text">
+                contact@abreastconsultancyservices.com
+              </p>
             </div>
           </div>
           <div className="contact-detail">
             <MdPhone className="contact-icon" />
             <div>
               <h3 className="contact-detail-title">Phone Number</h3>
-              <p className="contact-detail-text">Mobile: +(91) 8130954219</p>
+              <p className="contact-detail-text">Mobile: +(91) 9939084007</p>
             </div>
           </div>
         </div>

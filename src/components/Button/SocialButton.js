@@ -3,11 +3,11 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 function SocialButton() {
   const openWhatsApp = () => {
-    window.open("https://wa.me/8130954219", "_blank");
+    window.open("https://wa.me/9939084007", "_blank");
   };
 
   const openInstagram = () => {
-    window.open("https://www.instagram.com/braincraft.in", "_blank");
+    window.open("https://www.instagram.com/", "_blank");
   };
 
   return (

@@ -7,11 +7,12 @@ function Projects() {
         <p className="clip">Bringing the Offline and Online worlds together</p>
         <h1>WHAT WE OFFER</h1>
         <p className="description">
-          At BrainCraft, we specialize in crafting custom websites, e-commerce
-          platforms, mobile apps, and tailored web solutions to meet the unique
-          needs of your business. Whether you're looking to create a stunning
-          website, build a powerful online store, or develop a mobile app that
-          connects with your audience, we’ve got you covered.
+          At Abreast Consultancy Services, we specialize in crafting custom
+          websites, e-commerce platforms, mobile apps, and tailored web
+          solutions to meet the unique needs of your business. Whether you're
+          looking to create a stunning website, build a powerful online store,
+          or develop a mobile app that connects with your audience, we’ve got
+          you covered.
         </p>
       </div>
       <div className="right">
