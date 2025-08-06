@@ -1,4 +1,5 @@
 import "./Clients.scss";
+import man from "../../../assets/man.jpeg";
 
 function Clients() {
   return (
@@ -48,7 +49,7 @@ function Clients() {
               <img
                 width="70"
                 height="70"
-                src="https://img.freepik.com/premium-photo/young-indian-man-with-eyeglasses-nature_75648-1879.jpg?semt=ais_hybrid"
+                src={man}
                 class="attachment-thumbnail size-thumbnail wp-post-image"
                 alt=""
                 loading="lazy"
