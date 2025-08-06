@@ -15,7 +15,7 @@ function Hero() {
         </div>
 
         <img
-          src="https://plus.unsplash.com/premium_photo-1661400100934-1ba03c96cc14?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVvcGxlJTIwYXQlMjB3b3JrfGVufDB8fDB8fHww"
+          src="https://abreastenggco.com/assets/images/office/IMG-20250806-WA0010.jpg"
           alt="background"
         />
         <img

@@ -39,7 +39,7 @@ function Clients() {
               Working with Abreast Consultancy Services was a game-changer for
               our business. The team took the time to understand our needs and
               delivered a beautiful website that perfectly represents our
-              brand." – Ajay Singh
+              brand." – MANAS PRADHAN
             </p>
           </div>
 
@@ -60,10 +60,10 @@ function Clients() {
             </div>
             <div class="author-data">
               <div class="title">
-                <h4>Ajay Singh</h4>
+                <h4>MANAS PRADHAN</h4>
               </div>
               <div class="position">
-                <p className="clip">Seeup Tech</p>
+                <p className="clip">Ambienteapl</p>
               </div>
             </div>
           </div>

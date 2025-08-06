@@ -1,5 +1,6 @@
-import digilogo from "../assets/digilogo.png";
+import amb from "../assets/amb.jpeg";
 import seeup from "../assets/seeup.png";
+import shc from "../assets/shc.png";
 
 const sustain_posts = [
   {
@@ -159,9 +160,9 @@ const safety_cards = [
 const companies_logos = [
   seeup,
   "https://www.spoxtale.com/wp-content/uploads/2023/12/14.png",
-  "	https://www.spoxtale.com/wp-content/uploads/2023/12/19.png", // Use the imported image instead of a relative path in the array
-  "https://www.spoxtale.com/wp-content/uploads/2023/12/25.png",
-  "	https://www.spoxtale.com/wp-content/uploads/2023/12/10.png",
+  "https://www.spoxtale.com/wp-content/uploads/2023/12/19.png", // Use the imported image instead of a relative path in the array
+  amb,
+  "https://www.spoxtale.com/wp-content/uploads/2023/12/10.png",
   "https://www.spoxtale.com/wp-content/uploads/2023/12/5.png",
 ];
 
