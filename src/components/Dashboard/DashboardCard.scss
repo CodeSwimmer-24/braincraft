@@ -1,0 +1,104 @@
+
+@import "../config";
+.row {
+  // height: 100%;
+  //   background-color: red;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  top: 2rem;
+  justify-content: space-around;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 20px;
+
+  @media screen and (max-width: $md) {
+    flex-direction: column;
+    align-items: center;
+    // padding-bottom: 4rem;
+  }
+}
+.card1{
+  background-color: #ffff;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+//   align-items: center;
+  justify-content: space-evenly;
+//   text-align: center;
+  border: none;
+  padding-top: 20px;
+  padding: 27px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  @media screen and (max-width: $md) {
+    width: 90%;
+    // padding: 39px 27px;
+    height: 380px;
+  }
+
+  @media screen and (min-width: $lg) {
+    width: 380px;
+    // padding: 39px 27px;
+    height: 380px;
+  }
+
+  &:hover {
+    background: linear-gradient(
+      to right,
+      #c2385c,
+      lighten($secondary-color, 8%)
+    );
+
+    color: white !important;
+  }
+  &:hover svg {
+    fill: $primary-color;
+  }
+
+  svg {
+    height: 50px;
+    width: 50px;
+    fill: $secondary-color;
+    margin: 23px 0;
+    //   @media screen and (max-width: $md) {
+    //     height: 80px;
+    //     width: 80px;
+    //   }
+  }
+  h3 {
+    font-family: $body-font;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 22px;
+    //   @media screen and (max-width: $md) {
+    //     font-size: 23px;
+    //   }
+  }
+
+  p {
+    // text-align: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: $rubik-font;
+  }
+  button {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid $secondary-color;
+    color: $secondary-color;
+    cursor: pointer;
+  }
+}

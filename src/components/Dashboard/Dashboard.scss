@@ -1,0 +1,35 @@
+.more-button {
+  margin-top: 4px;
+  font-size: 14px;
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+.more-links {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.more-links a {
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+//   margin: 4px 0;
+  transition: color 0.2s;
+}
+
+/* On open, make links pink */
+.more-links.open a {
+  color: #e91e63; /* pink */
+}
+
+.more-links.open a:hover {
+  color: #c2185b; /* darker pink */
+}
