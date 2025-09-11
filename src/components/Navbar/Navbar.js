@@ -51,7 +51,7 @@ function Navbar({ dark }) {
           <Link to="/contact">Contact Us</Link>
         </li>
       </ul>
-
+      <Link to="/login"> <button class="login-btn">Login User</button></Link>
       <div className="burger">
         {!showNav ? (
           <i class="fas fa-bars" onClick={handleNav}></i>

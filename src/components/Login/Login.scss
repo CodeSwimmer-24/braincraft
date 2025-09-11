@@ -1,0 +1,181 @@
+$brand-color: #4f46e5;
+$error-color: #ef4444;
+
+.signin-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+/* Left Side */
+.signin-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+
+  .form-box {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    // background-color: red;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+
+    .subtitle {
+      color: #6b7280;
+      margin: 0.5rem 0 1.5rem;
+    }
+  }
+}
+
+.support-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+
+  .support-btn {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    cursor: pointer;
+    background: #f3f4f6;
+
+    &.whatsapp {
+      color: #16a34a;
+    }
+    &.phone {
+      color: #2563eb;
+    }
+
+    &:hover {
+      background: #e5e7eb;
+    }
+  }
+}
+
+.divider {
+  text-align: center;
+  margin: 1.5rem 0;
+  span {
+    background: #fff;
+    padding: 0 10px;
+    color: #9ca3af;
+  }
+  &::before,
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    background: #e5e7eb;
+    vertical-align: middle;
+  }
+}
+
+.form-group {
+  margin-bottom: 1rem;
+
+  label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 0.9rem;
+  }
+
+  .required {
+    color: $error-color;
+  }
+}
+
+.password-wrapper {
+  position: relative;
+
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 65%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1rem;
+    color: #6b7280;
+  }
+}
+
+.extra-links {
+  font-size: 0.85rem;
+  margin: 4px 0;
+
+  .link {
+    color: $brand-color;
+    cursor: pointer;
+    font-weight: 500;
+  }
+}
+
+.submit-btn {
+  width: 100%;
+  background: $brand-color;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin-top: 1rem;
+
+  &:hover {
+    background: darken($brand-color, 5%);
+  }
+}
+
+/* Right Side */
+.signin-right {
+  flex: 1;
+  background: linear-gradient(to bottom, #491b46, #b03ca3);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .content {
+    .logo {
+      width: 400px;
+      margin-bottom: 1rem;
+    }
+
+    .logo-image {
+      width: 400px;
+    //   background-color: red;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+  }
+}
