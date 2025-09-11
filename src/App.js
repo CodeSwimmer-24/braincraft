@@ -12,6 +12,9 @@ import { useContext } from "react";
 import { PostContext } from "./context/PostContext";
 import Safety from "./pages/Safety/Safety";
 import Events from "./pages/Events/Events";
+import WebsiteDev from "./pages/WebsiteDev/WebsiteDev";
+import MobileAppDev from "./pages/MobileAppDev/MobileAppDev";
+import CustomSoftware from "./pages/CustomSoftware/CustomSoftware";
 
 function App() {
   const { data } = useContext(PostContext);
@@ -22,7 +25,9 @@ function App() {
           <Route exact path="/">
             <Route exact path="/" element={<Home />} />
             <Route exact path="about" element={<About />} />
-
+            <Route exact path="websiteDev" element={<WebsiteDev />} />
+            <Route exact path="mobileAppDev" element={<MobileAppDev />} />
+            <Route exact path="customeSoftware" element={<CustomSoftware />} />
             <Route exact path="services" element={<Services />} />
             <Route exact path="csr" element={<CSR />} />
             <Route exact path="events">
