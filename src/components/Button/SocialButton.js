@@ -1,25 +1,25 @@
 import React from "react";
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaPhone, FaWhatsapp } from "react-icons/fa";
 
 function SocialButton() {
   const openWhatsApp = () => {
     window.open("https://wa.me/9939084007", "_blank");
   };
 
-  const openInstagram = () => {
-    window.open("https://www.instagram.com/", "_blank");
+  const openCallLog = () => {
+    window.location.href = "tel:+919939084007";
   };
 
   return (
     <div>
       <button
-        onClick={openInstagram}
+        onClick={openCallLog}
         style={{
           position: "fixed",
           bottom: "90px",
           right: "20px",
           background:
-            "linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)",
+            "linear-gradient(45deg, #4285f4 0%, #4285f4 25%, #4285f4 50%, #4285f4 75%, #fff 100%)",
           color: "white",
           padding: "15px 15px",
           border: "none",
@@ -30,7 +30,7 @@ function SocialButton() {
           zIndex: 100,
         }}
       >
-        <FaInstagram size={30} />
+        <FaPhone size={30} />
       </button>
 
       <button

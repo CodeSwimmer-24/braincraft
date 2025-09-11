@@ -14,6 +14,9 @@ import Safety from "./pages/Safety/Safety";
 import Events from "./pages/Events/Events";
 import Login from "./components/Login/Login";
 import Dashboard from "./components/Dashboard/Dashboard";
+import WebsiteDev from "./pages/WebsiteDev/WebsiteDev";
+import MobileAppDev from "./pages/MobileAppDev/MobileAppDev";
+import CustomSoftware from "./pages/CustomSoftware/CustomSoftware";
 
 function App() {
   const { data } = useContext(PostContext);
@@ -26,7 +29,9 @@ function App() {
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/dashboard" element={<Dashboard />} />
             <Route exact path="about" element={<About />} />
-
+            <Route exact path="websiteDev" element={<WebsiteDev />} />
+            <Route exact path="mobileAppDev" element={<MobileAppDev />} />
+            <Route exact path="customeSoftware" element={<CustomSoftware />} />
             <Route exact path="services" element={<Services />} />
             <Route exact path="csr" element={<CSR />} />
             <Route exact path="events">

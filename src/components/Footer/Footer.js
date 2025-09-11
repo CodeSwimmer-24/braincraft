@@ -44,7 +44,7 @@ function Footer() {
                 <p>Services</p>
               </Link>
               <Link to="/csr">
-                <p>Projects</p>
+                <p>CSR</p>
               </Link>
               <Link to="/contact">
                 <p>Contact</p>

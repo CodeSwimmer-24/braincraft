@@ -1,7 +1,6 @@
 import React from "react";
-import Navbar from "../../Navbar/Navbar";
 import "./Hero.scss";
-import heroBg from "../../../assets/about-page-hero.jpg";
+import Navbar from "../../../components/Navbar/Navbar";
 
 function Hero() {
   return (
@@ -10,7 +9,7 @@ function Hero() {
       <img
         className="csr-hero-bg"
         src={
-          "https://t3.ftcdn.net/jpg/05/12/35/86/360_F_512358641_Zo7KdAF1jX0zUgtnceo4sv756mHvpOWa.jpg"
+          "https://t4.ftcdn.net/jpg/04/19/26/97/360_F_419269782_9LsP3TQndMVnZ2j3ZhTPhMjaqQpFAth9.jpg"
         }
         alt=""
       />
@@ -19,9 +18,9 @@ function Hero() {
           <h4>
             <span>Home</span>
             <span className="delimeter"></span>
-            <span>CSR</span>
+            <span>Mobile App Development</span>
           </h4>
-          <h1>CSR</h1>
+          <h1>Mobile App Development</h1>
         </div>
       </div>
     </div>
