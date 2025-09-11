@@ -31,6 +31,7 @@ const options = [
     price: "$300 per month, unlimited",
     color: "green",
     short: "LAI",
+    url: "https://e-learning.abreastconsultancyservices.com/",
   },
   {
     title: "Lead Indicators",
